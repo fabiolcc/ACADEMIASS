@@ -1,0 +1,34 @@
+/* Efeitos visuais gerais */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero {
+    background: linear-gradient(to bottom right, #28a745, #a5d6a7);
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-placeholder {
+    background: #e9f7ef;
+    height: 300px;
+    border: 2px dashed #28a745;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-success:hover {
+    background-color: #1e7b34;
+  }
+  
+  footer {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
